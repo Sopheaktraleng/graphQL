@@ -11,6 +11,11 @@ let authors = [
     { id: "2", name: "yoshi", verified: false },
     { id: "3", name: "peach", verified: true },
 ];
+let books = [
+    { id: "1", name: "mario", verified: true },
+    { id: "2", name: "yoshi", verified: false },
+    { id: "3", name: "peach", verified: true },
+];
 
 let reviews = [
     {
@@ -64,4 +69,4 @@ let reviews = [
     },
 ];
 
-export default { games, authors, reviews };
+export default { games, authors, reviews, books };
